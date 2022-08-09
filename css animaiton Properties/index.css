@@ -1,0 +1,173 @@
+/* .heading{
+    color: darkblue;
+    font-size: 15px; */
+    /* transition: font-size 0.5s;
+    transition-delay: 1s;
+    transition-timing-function:  ease-out; */
+    /* transition: all 0.5s ease-in;
+}
+.heading:hover{
+    color: green;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+} */
+/* .img-div
+{
+    height: 542px;
+    width: 1355px;
+} */
+
+
+
+ /* realworld website transtion challange  */
+
+ body
+{
+    padding: 0;
+    margin: 0;
+}
+/* img{
+    height: 542px;
+    width: 1355px;
+    object-fit: cover;
+    opacity: 0.7;
+} */
+
+.img-div
+{
+    background-image: url("img2.jpg");
+    background-size: 1355px 542px;
+     /* width: 200px;  */
+     height: 542px; 
+    display: grid;
+
+    animation-name: newAnimation1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+   
+    /* animation-name: fadeInAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-fill-mode: both; */
+
+}
+.text-over-img
+{
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color: lightblue;
+    justify-self: center;
+    align-self: center;
+    animation-name: newAnimation2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    
+
+
+    /* animation-name: fadeInAnimation, textAnimation;
+    animation-duration: 1.5s, 1s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    animation-fill-mode: both; */
+
+
+}
+@keyframes newAnimation1
+{
+    from{opacity: 0; width: 0px;}
+    to{opacity: 1; width: 1353px;}
+}
+@keyframes newAnimation2
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+/* @keyframes fadeInAnimation
+{
+    
+    
+    0%{background-size: 700px 542px; width: 700px; height: 542px; font-size: 0;}
+    100%{background-size: 1355px 542px; width: 1353px; height: 542px; font-size: 0;};
+}
+
+@keyframes textAnimation
+{
+    0%{font-size: 0rem; justify-self: start;  align-self: stretch; }
+    100%{font-size: 4rem;  justify-self: center;  align-self: center;}
+} */
+
+
+
+
+
+.first-heading{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    transition: all 1s ease-out;
+}
+.first-heading:hover
+{
+    color: 	#00FF7F;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+    border-top: 3px solid lightblue;
+    border-bottom: 3px solid lightblue;
+    padding: 4px 20px 25px;
+}
+
+.menu-item
+{
+    padding: 0 70px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    transition: all 1s ease-out;
+}
+a:hover{
+    font-size: 2.5rem;
+    color: #00FF7F;
+}
+
+.bg-clr
+{
+    background-color: #4682B4;
+} 
+
+
+/* animation challenges */
+
+/* .div1
+{
+    width: 10px;
+    height: 10px;
+    background-color: aquamarine;
+    animation-name: superSize;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    /* animation-fill-mode: both; */
+   
+/* }
+
+@keyframes superSize
+{
+    0% {width:20px; height: 20px; color: red;}
+    100% {width: 50px; height: 50px; color: green;}
+} */ 

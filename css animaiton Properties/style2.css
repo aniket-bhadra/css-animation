@@ -1,0 +1,81 @@
+/* 2D animation with css */
+
+/* transform property */
+body{
+    margin: 0;
+}
+/* .div1
+{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    /* transform: scaleX(2) scaleY(2); */
+    /* margin: 0 auto; */
+    /* transform: translateY(50px); */
+    /* transform: skewx(25deg); */
+    /* margin: 50px 50px; */
+    /* animation-name: transform;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+} */ 
+
+/* @keyframes transform
+{
+    100% {transform: scale(0.5, 0.5) translate(50px, 0px) rotate(45deg);}
+} */
+/* .div2
+{
+    width: 50px;
+    height: 50px;
+    /* margin-top: 100px; */
+    /* background-color: red; */
+    /* position: absolute;
+    left: 50px; */
+    /* margin-left: 50px; */
+    /* margin: 100px 100px;
+    transform: skewY(25deg); */
+/* } */ 
+
+
+/* logo animation */
+.div1{
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+.div2{
+    background-color: burlywood;
+    height: 50px;
+    width: 50px;
+}
+.div3{
+    background-color: palevioletred;
+    height: 50px;
+    width: 50px;
+
+}
+.div4{
+    background-color:yellowgreen;
+    height: 50px;
+    width: 50px;
+}
+
+.animo
+{
+    animation-name: flag;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+
+}
+@keyframes flag{
+    100% {transform: translate(50vw,50vh) scaleX(10) skewY(65deg);}
+}
+
+h1{
+    color: #162E65;
+    font-size: 15rem;
+}
