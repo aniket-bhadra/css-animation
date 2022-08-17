@@ -4,8 +4,32 @@
 /* setup for just to center everything  */
 body{
     background-color: #000;
-    min-height: 100vh;   /*confusion*/
+    min-height: 100vh;   
     display: flex;
     justify-content: center;
-    align-items: center;     /*confusion*/
+    align-items: center;     
+    font-size: 75px;
+}
+
+.scene{
+    position: relative;
+}
+.ball{
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.cube{
+    width: 2em;
+    height: 2em;
+    background-color: var(--boxColor);
+}
+
+.floor{
+    width: 5em;
+    height: 5em;
+    background-image: repeating-conic-gradient(from 45deg, #111 0deg 90deg, #222 90deg 180deg);
+    background-size: 1em, 1em;
 }
